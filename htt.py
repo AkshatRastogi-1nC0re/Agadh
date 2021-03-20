@@ -2,6 +2,8 @@ import cv2
 import time
 import speech_recognition as sr
 from moviepy.editor import VideoFileClip, concatenate_videoclips, CompositeVideoClip
+from os import listdir
+from os.path import isfile, join
 
 #coverts voice to text
 def takecommand():
@@ -19,18 +21,38 @@ def takecommand():
         return "none"
 
     return query
+query = takecommand().lower()
+# query = "animal bird"
+print(query)
+mypath = "C:\\Users\\Akshat\\Documents\\GitHub\\Project-ASS\\handsigns\\videos\\"
+mypath2 = "C:\\Users\\Akshat\\Documents\\GitHub\\Project-ASS\\handsigns\\letter_videos\\"
+onlyfiles = [f.strip(".mp4") for f in listdir(mypath) if isfile(join(mypath, f))]
+onlyfiles_neo = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+onlyfiles2 = [f for f in listdir(mypath2) if isfile(join(mypath2, f))]
+print(onlyfiles)
+print(onlyfiles2)
+query_list = query.split()
+list_file_names = []
 
-# query = takecommand().lower()
-# print(query)
-#
-# for words in query:
-#     print(words)
+for word in query_list:
+    if word in onlyfiles:
+        for fn in onlyfiles_neo:
+            if word in fn:
+                clip1 = VideoFileClip(join(mypath,fn))
+                list_file_names.append(clip1)
+                break
+    else:
+        for i in word:
+            for fn1 in onlyfiles2:
+                x = "".join(list(fn1)[:-4])
+                if i in x:
+                    list_file_names.append(VideoFileClip(join(mypath2, fn1)))
+                    break
 
-clip1 = VideoFileClip(r"C:\Users\Akshat\Documents\GitHub\Project-ASS\handsigns\videos\ok.mp4")
-clip2 = VideoFileClip(r"C:\Users\Akshat\Documents\GitHub\Project-ASS\handsigns\videos\want.wanted.mp4")
+print(list_file_names)
 
-final_clip = concatenate_videoclips([clip1,clip2])
-final_clip.write_videofile("new.mp4")
+final_clip = concatenate_videoclips(list_file_names, method='compose')
+final_clip.write_videofile("new.mp4",fps=60)
 
 
 cap= cv2.VideoCapture('new.mp4')
