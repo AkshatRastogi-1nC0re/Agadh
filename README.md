@@ -4,7 +4,10 @@ Our project aims to develop a tool that can meet the special needs of differentl
 
 Watch a live demonstration [here !!](https://www.youtube.com/watch?v=8F7nB-RJl8w&ab_channel=AkshatRastogi)
 
-![Image](https://firebasestorage.googleapis.com/v0/b/hackathon-buhack.appspot.com/o/s1.png?alt=media&token=9a66ff95-3b53-49ea-8bbb-6166270e4f0d)
+![Image 1 ](https://firebasestorage.googleapis.com/v0/b/hackathon-buhack.appspot.com/o/s1.png?alt=media&token=9a66ff95-3b53-49ea-8bbb-6166270e4f0d)
+![Image 2 ](https://firebasestorage.googleapis.com/v0/b/hackathon-buhack.appspot.com/o/s2.png?alt=media&token=fb8d0e73-82fb-43d5-9fdc-034d4b1c6de1)
+![Image 3 ](https://firebasestorage.googleapis.com/v0/b/hackathon-buhack.appspot.com/o/s3.png?alt=media&token=1a898f96-f2cb-4c33-a1d8-c6e09f4cfa12)
+![Image 4 ](https://firebasestorage.googleapis.com/v0/b/hackathon-buhack.appspot.com/o/s4.png?alt=media&token=c93f20d5-84aa-4846-aac4-5f014662be06)
 
 We have used and applied python as well as other programming skills to create and test the algorithm.
 
