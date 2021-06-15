@@ -4,6 +4,8 @@ Our project aims to develop a tool that can meet the special needs of differentl
 
 Watch a live demonstration [here !!](https://www.youtube.com/watch?v=8F7nB-RJl8w&ab_channel=AkshatRastogi)
 
+![Image](https://firebasestorage.googleapis.com/v0/b/hackathon-buhack.appspot.com/o/s1.png?alt=media&token=9a66ff95-3b53-49ea-8bbb-6166270e4f0d)
+
 We have used and applied python as well as other programming skills to create and test the algorithm.
 
 Our algorithm works in the following manner
