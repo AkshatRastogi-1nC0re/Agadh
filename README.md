@@ -2,6 +2,8 @@
 
 Our project aims to develop a tool that can meet the special needs of differently-abled children in their education. To surpass the language and disability barriers we have come up with an innovative web application that converts voice into sign languages (American Sign Language) which deaf people can understand. This application will be of great use amongst deaf children as it can make education much easier for them.
 
+Watch a live demonstration [here !!](https://www.youtube.com/watch?v=8F7nB-RJl8w&ab_channel=AkshatRastogi)
+
 We have used and applied python as well as other programming skills to create and test the algorithm.
 
 Our algorithm works in the following manner
