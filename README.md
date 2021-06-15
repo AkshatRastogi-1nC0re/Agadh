@@ -1,4 +1,4 @@
-# VITHackathon
+# Agadh- Communicate with the deaf without the need to lean sign language
 
 Our project aims to develop a tool that can meet the special needs of differently-abled children in their education. To surpass the language and disability barriers we have come up with an innovative web application that converts voice into sign languages (American Sign Language) which deaf people can understand. This application will be of great use amongst deaf children as it can make education much easier for them.
 
