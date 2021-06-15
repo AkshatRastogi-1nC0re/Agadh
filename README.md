@@ -15,3 +15,6 @@ Our algorithm works in the following manner
 2. For every word in the user query, the algorithm searches for a video in our database.
 3. For each word that is unavailable in the database it is broken down into its respective letters.
 4. They are then combined together as the final release.
+
+
+Project Submitted as a part of VIT Hackathon
